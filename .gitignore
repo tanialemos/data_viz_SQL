@@ -130,3 +130,6 @@ dmypy.json
 
 # ignore bce.db
 bce.db
+
+#ignore data
+input_data

@@ -19,6 +19,11 @@ from code
 where code.Category = 'Status' AND code."Language"="FR"
 
 
-SELECT *
+SELECT Category
 from code
+Group by Category 
+
+Select  Code, Description
+from code
+where code.Category = 'Nace2008' AND code."Language"="FR"
 
